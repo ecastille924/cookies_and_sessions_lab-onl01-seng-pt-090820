@@ -1,0 +1,13 @@
+<h1>Welcome Shopper!</h1>
+
+<ul>
+<% @cart.each do |item| %>
+    <li> <%= item %> </li>
+    <% end %>
+</ul>
+
+Add Item to Your Cart:
+<%= render 'form' %>
+
+
+    
